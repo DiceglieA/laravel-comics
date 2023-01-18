@@ -1,3 +1,103 @@
 header {
-  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  margin: auto;
+}
+header img {
+  width: 80px;
+  padding: 10px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+header li {
+  margin: 0 8px;
+  font-size: 16px;
+}
+header .search {
+  margin: 0 auto;
+  width: 110px;
+}
+
+footer .bg {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 400px;
+}
+footer ul {
+  text-align: start;
+  margin: 10px;
+}
+footer h4 {
+  color: white;
+}
+footer li {
+  font-size: 12px;
+  color: gray;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 400px;
+}
+footer .lists {
+  display: flex;
+}
+footer .bg-grey {
+  background-color: #2D2C2D;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .followUs {
+  display: flex;
+  align-items: center;
+}
+footer img {
+  padding: 15px;
+}
+footer h3 {
+  color: #3B7CFF;
+}
+footer .signUp {
+  color: white;
+  padding: 7px;
+  border: 2px solid #3B7CFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

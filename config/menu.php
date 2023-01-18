@@ -1,51 +1,51 @@
 <?php
 
 return [
-    [
-        'route' => 'home',
-        'label' => 'Home',
-    ],
     // [
-    //     'route' => 'characters',
-    //     'label' => 'characters',
+    //     'route' => 'home',
+    //     'label' => 'HOME',
     // ],
+    [
+        'route' => 'characters',
+        'label' => 'CHARACTERS',
+    ],
     [
         'route' => 'comics',
-        'label' => 'comics',
+        'label' => 'COMICS',
     ],
-    // [
-    //     'route' => 'movies',
-    //     'label' => 'movies',
-    // ],
-    // [
-    //     'route' => 'tv',
-    //     'label' => 'tv',
-    // ],
-    // [
-    //     'route' => 'games',
-    //     'label' => 'games',
-    // ],
-    // [
-    //     'route' => 'collectibles',
-    //     'label' => 'collectibles',
-    // ],
-    // [
-    //     'route' => 'videos',
-    //     'label' => 'videos',
-    // ],
-    // [
-    //     'route' => 'fans',
-    //     'label' => 'fans',
-    // ],
-    // [
-    //     'route' => 'news',
-    //     'label' => 'news',
-    // ],
-    // [
-    //     'route' => 'shop',
-    //     'label' => 'shop',
-    // ],
+    [
+        'route' => 'movies',
+        'label' => 'MOVIES',
+    ],
+    [
+        'route' => 'tv',
+        'label' => 'TV',
+    ],
+    [
+        'route' => 'games',
+        'label' => 'GAMES',
+    ],
+    [
+        'route' => 'collectibles',
+        'label' => 'COLLECTIBLES',
+    ],
+    [
+        'route' => 'videos',
+        'label' => 'VIDEOS',
+    ],
+    [
+        'route' => 'fans',
+        'label' => 'FANS',
+    ],
+    [
+        'route' => 'news',
+        'label' => 'NEWS',
+    ],
+    [
+        'route' => 'shop',
+        'label' => 'SHOP',
+    ],
 ];
 
 
-//route di tutta la nav
+// route di tutta la nav

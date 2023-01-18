@@ -1,0 +1,60 @@
+footer {
+    .bg{
+        background-image: url('../assets/img/footer-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+        height: 400px;
+    }
+
+    ul{
+        text-align: start;
+        margin: 10px;
+    }
+
+    h4 {
+      color: white;
+    }
+
+    li{
+        font-size: 12px;
+        color: gray;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      height: 400px;
+    }
+
+    .lists{
+        display: flex;
+    }
+
+    .bg-grey{
+        background-color: #2D2C2D ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .followUs{
+        display: flex;
+        align-items: center;
+    }
+    img{
+        padding: 15px
+    }
+
+    h3{
+        color: #3B7CFF;
+    }
+
+    .signUp{
+        color: white;
+        padding: 7px;
+        border: 2px solid #3B7CFF;
+    }
+}
