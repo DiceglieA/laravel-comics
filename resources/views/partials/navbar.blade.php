@@ -41,9 +41,13 @@
     </nav> --}}
 
     <nav>
+        <a href="{{ route('home') }}">
+            <img src="{{ asset('img/dc-logo.png') }}" alt="DC-logo">
+        </a>
         <ul>
             @foreach ($menu as $item)
                 <li><a href="{{ route($item['route']) }}">{{ $item['label'] }}</a></li>
             @endforeach
         </ul>
+        <input class="search" placeholder="Search" type="text"/>
     </nav>
